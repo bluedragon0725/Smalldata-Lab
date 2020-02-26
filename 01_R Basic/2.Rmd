@@ -1,4 +1,8 @@
 ---
+output: 
+  html_document: 
+    number_sections: yes
+    theme: spacelab
 ---
 
 ```{r setup, include=FALSE}
