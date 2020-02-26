@@ -1,11 +1,9 @@
-    ---
-    title: "Something fascinating"
-    author: "Jenny Bryan"
-    date: "2020-02-11"
-    output:
-      html_document:
-        keep_md: true
-    ---
+---
+title: "Something fascinating"
+author: "Jenny Bryan"
+date: "2020-02-11"
+output: "rmarkdown::github_document"
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
