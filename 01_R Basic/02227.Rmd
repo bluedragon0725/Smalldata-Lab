@@ -1,0 +1,29 @@
+---
+title: "My Title"
+output:
+  github_document:
+    pandoc_args: --webtex
+---
+ 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 패키지 개요
+
+* R에서 패키지의 설치와 사용은 다음과 같이 간단하게 이루어질 수 있음.
+* 패키지는 한 번만 설치하면 되지만 패키지를 불러오는 작업은 R 스튜디오를 새로 시작할 때마다 반복해야 함.
+* 패키지를 불러오지 않은 상태에서 함수를 실행하면 함수를 사용할 수 없다는 에러 메시지가 출력됨.
+
+## 패키지 설치
+```{r}
+install.packages("ggplot2")
+```
+
+
+## 패키지 사용
+```{r}
+library(ggplot2)
+```
+
+
