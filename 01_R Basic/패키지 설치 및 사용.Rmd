@@ -1,11 +1,12 @@
 ---
-title: "패키지 설치 및 불러오기"
+title: "패키지 설치 및 사용"
 author: "Smalldata Lab"
 date: "2020-02-26"
 output: 
   html_document:
     keep_md: true
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
