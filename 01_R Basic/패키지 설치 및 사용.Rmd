@@ -1,5 +1,5 @@
 ---
-title: "패키지 설치 및 사용"
+title: "tttt"
 author: "Smalldata Lab"
 date: "2020-02-26"
 output: 
