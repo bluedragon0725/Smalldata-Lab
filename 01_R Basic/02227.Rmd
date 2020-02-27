@@ -4,26 +4,27 @@ output:
   github_document:
     pandoc_args: --webtex
 ---
- 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## 패키지 개요
+## R Markdown
 
-* R에서 패키지의 설치와 사용은 다음과 같이 간단하게 이루어질 수 있음.
-* 패키지는 한 번만 설치하면 되지만 패키지를 불러오는 작업은 R 스튜디오를 새로 시작할 때마다 반복해야 함.
-* 패키지를 불러오지 않은 상태에서 함수를 실행하면 함수를 사용할 수 없다는 에러 메시지가 출력됨.
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-## 패키지 설치
-```{r}
-install.packages("ggplot2")
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
 ```
 
+## Including Plots
 
-## 패키지 사용
-```{r}
-library(ggplot2)
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
 ```
 
-
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
