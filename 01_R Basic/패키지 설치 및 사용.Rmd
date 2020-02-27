@@ -1,13 +1,10 @@
 ---
-title: "tttt"
-author: "Smalldata Lab"
-date: "2020-02-26"
-output: 
-  html_document:
-    keep_md: true
+title: "My Title"
+output:
+  github_document:
+    pandoc_args: --webtex
 ---
-
-
+ 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -22,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 install.packages("ggplot2")
 ```
+
 
 ## 패키지 사용
 ```{r}
